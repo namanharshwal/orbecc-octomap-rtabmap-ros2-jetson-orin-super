@@ -1,0 +1,17 @@
+rtabmap:
+  ros__parameters:
+    frame_id: "camera_link"
+    subscribe_depth: true
+    subscribe_rgb: true
+    subscribe_odom_info: true
+    approx_sync: true
+    queue_size: 50
+    qos: 1
+    Mem/IncrementalMemory: "true"
+    Mem/InitWMWithAllNodes: "false"
+    RGBD/NeighborLinkRefining: "true"
+    RGBD/ProximityBySpace: "true"
+    RGBD/AngularUpdate: "0.05"
+    RGBD/LinearUpdate: "0.05"
+    Vis/MinInliers: "5"
+    Vis/MaxFeatures: "1000"

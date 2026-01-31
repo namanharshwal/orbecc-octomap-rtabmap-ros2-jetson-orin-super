@@ -1,0 +1,7 @@
+rtabmap:
+  ros__parameters:
+    Odom/Strategy: "0"           # F2M
+    Vis/MinInliers: "8"          # default 15; start easier
+    Vis/MaxFeatures: "800"       # more features
+    Vis/CorFlowWinSize: "21"
+    Vis/FeatureType: "6"         # ORB, more robust

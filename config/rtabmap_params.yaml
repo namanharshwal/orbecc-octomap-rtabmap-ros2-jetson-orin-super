@@ -1,0 +1,11 @@
+rgbd_odometry:
+  ros__parameters:
+    frame_id: "camera_link"
+    approx_sync: false
+    queue_size: 10
+    qos: 1
+    Odom/Strategy: "0"
+    OdomF2M/MaxSize: "1000"
+    Vis/CorFlowWinSize: "21"
+    Vis/MaxFeatures: "400"
+    Vis/MinInliers: "12"
